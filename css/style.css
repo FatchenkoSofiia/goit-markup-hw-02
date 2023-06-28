@@ -135,18 +135,40 @@ button {
 .section-about-us-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: #434455;
 }
 
+/* what are we doing */
+
+.section-three-subtitle {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 /* Our team */
+
 
 .section-our-team {
     background-color: #f4f4fd;
 }
 
+.section-ot-subtitle {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 .team-card {
     background-color: #ffffff;
+}
+
+.team-text {
+    line-height: 1.5;
 }
 
 /* Footer */
