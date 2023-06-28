@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primary-brand-color: #4d5ae5;
     --body-text-color: #434455;
     --dark-color: #2e2f42;
@@ -6,13 +6,13 @@
     --accent-color: #e7e9fc;
     --pressed-state-color: #404bbf;
     --light-color: #f4f4fd;
-}
+} */
 body {
-    background-color: var(--white-color) ;
+    background-color: #ffffff ;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: var(--body-text-color);
+    color: #434455;
     letter-spacing: 0.02em;
 } 
 
@@ -21,7 +21,7 @@ ul {
 }
 
 .header {
-    background-color: var(--white-color);
+    background-color: #ffffff;
 }
 
 .header-logo,
@@ -38,15 +38,15 @@ ul {
 
 .header-web-span,
 .footer-web-span {
-    color: var(--primary-brand-color);
+    color: #4d5ae5;
 }
 
 .header-studio-span {
-    color: var(--dark-color);
+    color: #2e2f42;
 }
 
 .footer-studio-span {
-    color: var(--light-color);
+    color: #f4f4fd;
 }
 
 .menu-nav {
@@ -54,7 +54,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: #2e2f42;
     text-decoration: none;
     list-style: none;
 }
@@ -73,7 +73,7 @@ ul {
 .nav-portfolio:focus,
 .nav-contacts:hover,
 .nav-contacts:focus {
-    color: var(--pressed-state-color) ;
+    color: #404bbf ;
 
 }
 
@@ -89,7 +89,7 @@ ul {
 }
 
 .section-hero {
-    background-color:var(--dark-color);
+    background-color:#2e2f42;
 }
 
 .header-one {
@@ -98,7 +98,7 @@ ul {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--white-color);
+    color: #ffffff;
 }
 
 .hero-button {
@@ -107,14 +107,14 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color:var(--white-color);
-    background-color: var(--primary-brand-color);
+    color:#ffffff;
+    background-color: #4d5ae5;
     cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--pressed-state-color);
+    background-color: #404bbf;
 }
 
 .header-two {
@@ -124,7 +124,7 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--dark-color);
+    color: #2e2f42;
 }
 
 .header-three {
@@ -132,7 +132,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: #2e2f42;
 }
 
 .text {
@@ -140,39 +140,39 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    color: var(--body-text-color);
+    color: #434455;
 }
 
 .section-our-team {
-    background-color: var(--light-color);
+    background-color: #f4f4fd;
 }
 .header-two-ot {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: #2e2f42;
 }
 
 .team-card {
-    background-color: var(--white-color);
+    background-color: #ffffff;
 }
 
 .filtter-button {
     font-family: "Roboto", sans-serif;
-    background-color: var(--light-color);
+    background-color: #f4f4fd;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--primary-brand-color);
+    color: #4d5ae5;
     cursor: pointer;
 }
 
 .filtter-button:hover,
 .filtter-button:focus {
-    background-color: var(--pressed-state-color);
-    color: var(--white-color);
+    background-color: #404bbf;
+    color: #ffffff;
 }
 
 .list {
@@ -181,13 +181,13 @@ ul {
 }
 
 .header-img {
-    color: var(--dark-color);
+    color: #2e2f42;
 }
 
 .footer {
-    background-color: var(--dark-color);
+    background-color: #2e2f42;
 }
 
 .footer-text {
-    color: var(--light-color);
+    color: #f4f4fd;
 }
